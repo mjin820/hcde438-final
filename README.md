@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# HCDE 438 Final Project: FlavorFusion
+
+An application where users can enter any ingredients they have to generate a variety of recipes including those ingredients. Once they select the recipe of their choice, they have the option to view missing ingredients that they will need to shop for in a separate pop-up window, as well as save the recipe for future reference. When a user chooses to save a recipe, the recipe's details including the title, image, ingredients, and instructions are stored in Firebase Firestore.
+
+This application uses the [Spoonacular API](https://spoonacular.com/food-api) and its key to fetch recipes when a user inputs their available ingredients. The API key is stored in a file named "keys.js" and is in .gitignore.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
